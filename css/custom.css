@@ -10773,6 +10773,7 @@ textarea.form-control-lg {
 }
 html {
   background-color: #212529;
+  overflow-x: hidden;
 }
 
 body {

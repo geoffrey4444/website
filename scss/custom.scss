@@ -1,11 +1,12 @@
 @import "../external/node_modules/bootstrap/scss/bootstrap";
 
 html {
-  background-color: $dark
+  background-color: $dark;
+    overflow-x: hidden;
 }
 body {
-  background-color: $dark
+  background-color: $dark;
 }
 .row {
-  background-color: $dark
+  background-color: $dark;
 }
