@@ -10791,3 +10791,21 @@ body {
 }
 
 /*# sourceMappingURL=custom.css.map */
+
+:root {
+  /* Pick your desired dark background once */
+  --bs-body-bg: #121212;
+  --bs-body-bg-rgb: 18, 18, 18;
+
+  /* Optional: make the "dark" color match too */
+  --bs-dark: #121212;
+  --bs-gray-900: #121212;
+}
+
+/* Make sure the body is painted fully with this color */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: var(--bs-body-bg);
+}
